@@ -5,8 +5,6 @@
     <div class="lp-media">
       {% if product.featured_image %}
         <img
-          width="600"
-          height="600"
           srcset=" {{ product.featured_image | image_url: width: 600 }} 600w, {{ product.featured_image | image_url: width: 900 }} 900w "
           sizes="(min-width: 990px) 520px, 100vw"
           src="{{ product.featured_image | image_url: width: 600 }}"
