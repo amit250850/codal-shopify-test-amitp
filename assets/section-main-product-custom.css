@@ -413,13 +413,7 @@
     position: relative;
     padding-left: 0;
   }
-  .lp-datasheet-list li::before {
-    content: '';
-    width: 18px;
-    height: 18px;
-    background: url('{{ "pdf-icon.svg" | asset_url }}') no-repeat center / contain;
-    flex: 0 0 18px;
-  }
+
   .lp-datasheet-list a {
     color: #1f2937;
     text-decoration: none;
